@@ -15,12 +15,23 @@ body {
 }
 
 .input {
-   height: 20px;
+   height: 2em;;
+   border-radius: 10px;
+   margin: 1em 0;
+   text-align: center;
+}
+
+.caution {
+    margin-top: -0.5em;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 .submitbtn {
     display: block;
-    height: 30px;
+    height: 3em;
+    width: 10em;
 }
 
 
@@ -29,4 +40,5 @@ body {
     flex-wrap: wrap;
     width: 80vh;
     height: 80vh;
+    margin-top: -2em;
 }
