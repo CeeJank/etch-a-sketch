@@ -1,7 +1,28 @@
 body {
-    height: 100vh;
-    width: 100vh;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+.form {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5em;
+}
+
+.input {
+   height: 20px;
+}
+
+.submitbtn {
+    display: block;
+    height: 30px;
+}
+
 
 .container {
     display: flex;
